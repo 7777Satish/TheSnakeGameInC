@@ -1,0 +1,26 @@
+# Ignore object files and compiled binaries
+*.o
+*.exe
+
+# Ignore build directories
+/build/
+*/build/
+
+# Ignore temporary files
+*.tmp
+*.log
+*.bak
+*.swp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore OneDrive temporary files
+~$*
+
+# Ignore editor-specific files
+*.vscode/
+*.idea/
+*.sublime-workspace
+*.sublime-project
